@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="img/2.ico">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div class="colored-box">
+        <div class="button-container">
+            <a class="button-to-elsewhere" href="index.html">Home</a>
+            <a class="button-to-elsewhere" href="about.html">About</a>
+            <a class="button-to-elsewhere" href="contact.html">Contact</a>
+            <a class="button-to-elsewhere" href="secret.html">.</a>
+        </div>
+        <div class="header-container">
+            <h1><u>The Sex Kitchen</u></h1>
+            <img class="funny-image" src="img/sans.png" alt="SANS UDNDERTALE???!!?!?!?!?">
+        </div>
+    </div>
+
+    <div style="display: inline-flex;">
+        <div class="contact-info">
+            <h2>Contact (some bitches)</h2>
+            <p>The Sex Kitchen is always looking for some new, tasty and adventurous meals. <br>
+            Be sure to let us know if there's one you deem Sex Kitchen worthy!</p>
+        </div>
+        <form>
+            <div class="recipe-submit">
+                <h2><u>Submit your own recipes!</u></h2>
+                <label for="recipe-title">Recipe Title</label>
+                <input type="text" name="recipe-title">
+                <br><br>
+                <label for="num-servings">Number of servings</label>
+                <input type="text" name="num-servings">
+                <br><br>
+                <label for="ingredients">Ingredients</label>
+                <textarea name="ingredients" id="ingredients" rows="5" placeholder="e.g. 2 cups of milk, 1 soul of the damned"></textarea>
+                <br>
+                <label for="directions">Directions</label>
+                <textarea name="directions" id="directions" rows="5" placeholder="Mix the milk with the soul for 15 minutes"></textarea>
+                <br>
+                <p>Upload a picture and tell us:</p>
+                <label for="recipe-photo">How should it look?</label>
+                <input class="button-to-elsewhere" type="file" id="recipe-photo" name="recipe-photo" accept="image/*">
+            </div>
+            <div class="name-container">
+                <h2><u>Recipe credit</u></h2>
+                <div class="name-submit">
+                    <label for="f-name" class="name-submit-name">First Name</label>
+                    <input type="text" name="f-name">
+                </div>
+                <div class="name-submit">
+                    <label for="l-name" class="name-submit-name">Last Name</label>
+                    <input type="text" name="l-name">
+                </div>
+                <label for="email" class="label center">Email</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <button class="button-to-elsewhere" type="submit">Submit the recipe</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <footer>
+        <p>All rights reserved©™ Sex 2024</p>
+    </footer>
+
+
+</body>
+</html>

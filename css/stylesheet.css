@@ -1,0 +1,160 @@
+.colored-box{
+    background-color: #e49031;
+    border: 2px solid rgb(197, 197, 197);
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.header-container{
+    flex: 0.89;
+    text-align: center;
+}
+.header-container h1{
+    margin: 0;
+}
+.header-container img{
+    margin-left: 10px;
+}
+.parent-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.recipe-container{
+    padding-left: 20px;
+    margin: 5px;
+    display: table;
+    width: 90%;
+}
+.text-container{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+.text-container.show {
+    max-height: 500px;
+}
+.image{
+    width: 200px;
+    height: 270px;
+    object-fit: cover;
+    border: 2px solid #a85a00;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+.image:hover{
+    width: 70%;
+    height: 70%;
+}
+.image.hover{
+    width: 70%;
+    height: 70%;
+}
+.wrap-image{
+    border: 10px solid white;
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.button-container{
+    padding-left: 10px;
+}
+.button-to-elsewhere{
+    background-color: #a85a00;
+    border:2px solid #a85a00;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: "Comic Sans MS";
+    transition-duration: 0.4s;
+}
+.button-to-elsewhere:hover{
+    background-color: #7e4401;
+    color: black;
+    border:2px solid #7e4401;
+}
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #e49031;
+    border: 2px solid rgb(197, 197, 197);
+    color: black;
+}
+body{
+    font-family: "Comic Sans MS";
+    margin: 0;
+}
+.glow {
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    animation: glow-animation 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
+    }
+    100% {
+        text-shadow: 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 90px #ff0000;
+    }
+}
+.funny-image{
+    width: 2%; 
+    height: 2%;
+}
+.funny-image2{
+    padding-left: 400px;
+}
+.generic-padding{
+    padding-left: 10px;
+}
+.recipe-submit{
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-container{
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-submit{
+    display: inline-block;
+    margin-right: 10px;
+}
+.name-submit-name{
+    display: block;
+}
+.contact-info{
+    padding-left: 10px;
+    padding-right: 65px;
+    text-align: left;
+    max-width: fit-content;
+}
+input{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+textarea{
+    width: 100%;
+}
+label{
+    text-align: left;
+    display: block;
+}
+.label center{
+    text-align: center;
+}
+.center{
+    text-align: center;
+} 
